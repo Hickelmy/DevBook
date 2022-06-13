@@ -15,7 +15,7 @@ function App() {
           <Sidebar />
         </aside>
         <main>
-          <h1>Algum texto aqui</h1>
+          <Feed />
         </main>
       </div>
     </div>
