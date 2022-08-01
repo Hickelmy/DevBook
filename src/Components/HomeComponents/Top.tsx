@@ -1,18 +1,18 @@
 import React from "react";
-import BannerIMG from "../../Assets/bannerimg.jpg";
+import TopBannerIMG from "../../Assets/topbannerimg.jpg";
 import { Button } from "primereact/button";
 
-export function Banner() {
+export function HomeTop() {
   return (
     <div>
       <div className="grid grid-nogutter surface-0 text-800">
         <div className="col-12 md:col-6 p-6 text-center md:text-left flex align-items-center ">
           <section>
             <span className="block text-6xl font-bold mb-1">
-              Crie seu Cenario
+              Texto Aleatorio
             </span>
             <div className="text-6xl text-primary font-bold mb-3">
-              Compartilhe com seus amigos
+              Texto AleatorioTexto AleatorioTexto Aleatorio
             </div>
             <p className="mt-0 mb-4 text-700 line-height-3">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -33,7 +33,7 @@ export function Banner() {
         </div>
         <div className="col-12 md:col-6 overflow-hidden">
           <img
-            src={BannerIMG}
+            src={TopBannerIMG}
             alt="hero-1"
             className="md:ml-auto block md:h-full"
             style={{
