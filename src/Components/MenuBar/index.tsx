@@ -15,7 +15,6 @@ import { items } from "../../Constants/MenuBarConstants";
 export const MenuBar = () => {
   const start = (
     <div>
-      <MenuSidebar />
       <a href="">
         <img
           alt="logo"
@@ -34,13 +33,18 @@ export const MenuBar = () => {
     <div>
       {" "}
       <InputText placeholder="Procurar.." type="text" />{" "}
-      <Button label="Create.." icon="pi pi-plus" />
+      <Button label="Login" icon="pi pi-user" />
     </div>
   );
 
   return (
     <>
-      <Menubar model={items} start={start} end={end} />
+      <Menubar
+        model={items}
+        start={start}
+        end={end}
+        className="font-bold text-white m-2 px-5 py-3"
+      />
     </>
   );
 };

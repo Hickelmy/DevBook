@@ -20,12 +20,18 @@ export const MenuSidebar = () => {
         <Button
           type="button"
           onClick={(e) => setVisible(false)}
-          label="Cancel"
+          label="Cancelar"
           className="p-button-secondary"
         />
       </Sidebar>
 
-      <Button icon="pi pi-arrow-right" onClick={(e) => setVisible(true)} />
+      <Button
+        label=""
+        className="p-button p-component p-button-outlined p-button-secondary"
+        icon="pi pi-barspi pi-bars"
+        iconPos="right"
+        onClick={(e) => setVisible(true)}
+      />
     </>
   );
 };
